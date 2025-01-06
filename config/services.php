@@ -13,11 +13,11 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
-    'google' => [
-        'client_id' =>'202521702913-g86lgp57h7knh29cmvl6ji8fdt17kcon.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
-    ],
+    //'google' => [
+        //'client_id' =>'202521702913-g86lgp57h7knh29cmvl6ji8fdt17kcon.apps.googleusercontent.com',
+        //'client_secret' => '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',
+        //'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
+    //],
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
